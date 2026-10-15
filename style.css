@@ -1,0 +1,37 @@
+/* 1. Thiết lập chung cho nút bấm */
+.btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    
+    /* Thuộc tính transition tạo hiệu ứng chuyển đổi mượt mà trong 0.2 giây */
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 2. Hiệu ứng khi di chuột vào nút (:hover) */
+.btn:hover {
+    background-color: #357abd; /* Đổi màu nền tối hơn chút */
+    transform: translateY(-2px); /* Nhích nhẹ nút lên trên 2px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Tạo bóng đổ phía dưới */
+}
+
+/* 3. Hiệu ứng khi di chuột vào từng khối thẻ (article/section) */
+article {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    
+    /* Chuyển động mượt trong 0.3 giây */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-4px); /* Nhích khung lên 4px */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ mượt mà */
+}

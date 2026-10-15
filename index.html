@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>something is special</title>
+    <title>Nguyen Minh Hoang - CV</title>
+    <!-- Liên kết file CSS vào HTML -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1> Welcome to University of Information and Technology!!!</h1>
-<img src="logo-uit-1.jpg" alt="Logo UIT">
+
+    <header>
+        <img src="logo-uit-1.jpg" alt="Photo of Nguyen Minh Hoang" width="90">
+        <h1>Nguyen Minh Hoang</h1>
+        <p class="note">Frontend Developer Student</p>
+        <button class="btn">Download CV</button>
+        <nav>
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>University of Information Technology</h3>
+                <p>2026 - now | Software Engineering</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+            </ul>
+            <!-- Thêm class btn vào nút/thẻ để áp dụng CSS -->
+            <p><strong>Hobbies:</strong> problem - solving, creative</p>
+            <button class="btn">Button 1</button>
+            <button class="btn">Button 2</button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:hoangminh7200@gmail.com">hoangminh7200@gmail.com</a></p>
+            <p>A paragraph inside section#contact.</p>
+        </section>
+    </main>
+
 </body>
 </html>
